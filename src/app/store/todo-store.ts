@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { Todo, TodoStore } from '../types/todo'
+import { TodoStore } from '../types/todo'
 
 export const useTodoStore = create<TodoStore>()(
   persist(
